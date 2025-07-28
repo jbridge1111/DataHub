@@ -1,0 +1,42 @@
+version: 1
+owners:
+  users: []
+  groups: []
+nodes:
+- name: Group A
+  id: urn:li:glossaryNode:uuid-GroupA
+  description: Business Glossary terms and metrics related to Group A testing.
+  terms:
+  - name: Metric 1
+    id: GroupA-Metric1
+    description: "**Alias**: 1\n**Type**: Metric\n**Category**: Test\n**KPI?**: \n\
+      **Description**: Metric Definition 1.\n"
+    owners:
+      users: []
+      groups: user_group_a_testing
+    domain: Testing
+  - name: Metric 2
+    id: GroupA-Metric2
+    description: '**Alias**: 2
+
+      **Type**: Metric
+
+      **Category**: Test
+
+      **KPI?**: Yes
+
+      **Description**: Metric Definition 2.
+
+      '
+    owners:
+      users: []
+      groups: user_group_a_testing
+    domain: Testing
+  - name: Metric 3
+    id: GroupA-Metric3
+    description: "**Alias**: 3\n**Type**: Metric\n**Category**: Test\n**KPI?**: \n\
+      **Description**: Metric Definition 3.\n"
+    owners:
+      users: []
+      groups: user_group_a_testing
+    domain: Testing
